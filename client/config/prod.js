@@ -1,6 +1,8 @@
+// eslint-disable-next-line import/no-commonjs
 module.exports = {
   env: {
-    NODE_ENV: '"production"'
+    NODE_ENV: 'production',
+    CLOUD_ENV: 'release-vq9ga'
   },
   defineConstants: {
   },

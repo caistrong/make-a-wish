@@ -1,0 +1,9 @@
+@import "../../assets/styles/constants.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/flex.scss";
+
+.hint-bar{
+    border-left: 8rpx solid $primary-red;
+    padding: 0 8rpx;
+    margin-top: 18rpx;
+}

@@ -1,0 +1,11 @@
+@import "./assets/styles/constants.scss";
+// 自定义主题颜色
+$color-brand: $primary-red; 
+$color-brand-dark: $primary-red-dark;
+$color-brand-light: $primary-red;
+$color-border-base: #C07676; //TODO: 待定
+@import "~taro-ui/dist/style/index.scss"; // 引入组件样式 - 方式二
+
+View {
+    box-sizing: border-box;
+}

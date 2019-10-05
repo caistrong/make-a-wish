@@ -1,0 +1,12 @@
+@import "../../assets/styles/constants.scss"; // 引入组件样式 - 方式二
+
+.login {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.login-button {
+    width: 90%;
+    background-color: $primary-red;
+    color: $primary-white;
+}

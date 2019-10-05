@@ -1,0 +1,31 @@
+@import "~taro-ui/dist/style/components/flex.scss";
+@import "../../assets/styles/constants.scss";
+
+.paper-card {
+  box-shadow: 0 8rpx 16rpx 0 rgba(0, 0, 0, 0.2); //设置两层阴影
+  width: 90%;
+  padding: 10rpx 20rpx;
+  margin: 36rpx auto;
+}
+
+.boy {
+  border-left: 8rpx solid $primary-black;
+}
+
+.girl {
+  border-left: 8rpx solid $primary-red;
+}
+
+.paper-wish-text {
+  padding-left: 36rpx;
+}
+
+.paper-time-show {
+  font-size: 20rpx;
+  color: $primary-grey;
+}
+
+.image-shower {
+  width: 100%;
+  height: 500rpx;
+}

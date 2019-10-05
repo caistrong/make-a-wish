@@ -1,0 +1,15 @@
+@import "~taro-ui/dist/style/components/flex.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "../../assets/styles/constants.scss";
+@import "../../assets/styles/weui.wxss";
+
+.info-item {
+    box-shadow: 0 8rpx 16rpx 0 rgba(0, 0, 0, 0.2);//设置两层阴影
+    border-left: 8rpx solid $primary-red;
+    width: 90%;
+    padding: 18rpx 18rpx;
+    margin: 36rpx auto;
+}
+.message-badge {
+    font-size: 24rpx;
+}

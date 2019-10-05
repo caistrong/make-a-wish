@@ -1,5 +1,5 @@
 {
-  "name": "login",
+  "name": "api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "wx-server-sdk": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0"
   }
 }

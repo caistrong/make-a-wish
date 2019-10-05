@@ -1,14 +1,19 @@
 {
-  "miniprogramRoot": "client/dist/",
-  "cloudfunctionRoot": "cloud/functions/",
-  "projectname": "make-a-wish",
-  "description": "make a wish here.",
-  "appid": "touristappid",
-  "setting": {
-    "urlCheck": true,
-    "es6": false,
-    "postcss": false,
-    "minified": false
-  },
-  "compileType": "miniprogram"
+	"miniprogramRoot": "client/dist/",
+	"cloudfunctionRoot": "cloud/functions/",
+	"projectname": "make-a-wish",
+	"description": "make a wish here.",
+	"appid": "wx16b646bf643e1986",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": false,
+		"minified": false
+	},
+	"compileType": "miniprogram",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+	"libVersion": "2.8.3",
+	"condition": {}
 }

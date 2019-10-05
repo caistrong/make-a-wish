@@ -1,0 +1,28 @@
+@import "~taro-ui/dist/style/components/flex.scss";
+@import "../../assets/styles/constants.scss";
+
+.wish-title {
+    box-shadow: 0 8rpx 16rpx 0 rgba(0, 0, 0, 0.2);//设置两层阴影
+    border-top: 8rpx solid $primary-red;
+    width: 90%;
+    padding: 36rpx 36rpx;
+    margin: 36rpx auto;
+}
+.wish-profile {
+    box-shadow: 0 8rpx 16rpx 0 rgba(0, 0, 0, 0.2);//设置两层阴影
+    width: 90%;
+    padding: 36rpx 36rpx;
+    box-sizing: border-box;
+    margin: 36rpx auto;
+}
+.wish-photos {
+    box-shadow: 0 8rpx 16rpx 0 rgba(0, 0, 0, 0.2);//设置两层阴影
+    width: 90%;
+    margin: 36rpx auto;
+}
+.wish-message {
+    box-shadow: 0 8rpx 16rpx 0 rgba(0, 0, 0, 0.2);//设置两层阴影
+    width: 90%;
+    padding: 36rpx 36rpx;
+    margin: 36rpx auto;
+}
